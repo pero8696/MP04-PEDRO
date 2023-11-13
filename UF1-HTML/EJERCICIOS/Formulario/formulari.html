@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulari.css">
+    <title>Enquesta profesorat</title>
+</head>
+<body>
+    <h1>Enquesta a professorat</h1>
+<div>
+<form action="" method="get">
+<fieldset class="caj1">
+    <legend >Dades personals</legend>
+    <p>Edad: <sup>*</sup><br><input type="text" name="edad" size="30" placeholder="Inseriu l'edad"></p>
+    <p>email: <br><input type="email" name="correo" size="70"></p>
+    <p>Contraseña:<sup>*</sup><br><input type="password" name="password" minlength="6"  size="70" placeholder="Inseriu la Contrasenya"></p>
+    <p>Data de neixament: <br><input type="date" name="fecha"></p>
+    <p>* Camps obligatoris</p>
+    
+</fieldset>
+<fieldset class="caj2">
+    <legend>Moduls a evaluar</legend>
+    <select name="menu">
+        <option value="0">Seleccioneu</option>
+        <option value="1">Uno</option>
+        <option value="2">Dos</option>
+        <option value="3">Tres</option>
+    </select>
+    
+</fieldset>
+<fieldset class="caj3">
+    <legend>Cicle</legend>
+    <p>
+        <input type="radio" name="as" value="a" required> ASIX
+        <input type="radio" name="as" value="dm" required> DAM
+        <input type="radio" name="as" value="dw" required> DAW
+        <input type="radio" name="as" value="b" required> BIOINFORMÀTICA
+    </p>
+</fieldset>
+<fieldset class="caj4">
+    <legend>Professor a evaluar</legend>
+    <p>Nom professor: <br><input type="text" name="edad" size="70" placeholder="Inseriu el nom"></p>
+    Grau de satisfació del 1 al 10: <br><input type="range" name="rango" min="0" max="1" step="0.1">
+    <br>Comentaris: <br><textarea name="texto" rows="4" cols="65" placeholder="Inseriu els Comentaris"></textarea>
+
+</fieldset>
+<fieldset class="caj5">
+    <legend>Explica alguna cosa sobre tú</legend>
+    <p>Ets repetidor?<br>
+    <input type="checkbox" name="rep" value="1">Sí
+    <input type="checkbox" name="rep" value="2">No
+    <p>Color preferit: <br><input type="color" name="colorElegido"></p>
+    <p>Direcció Web: <br><input type="url" name="direccion" size="40"></p>
+    Situació actual:<br>
+    <p><select name="menu2">
+        <option value="0"></option>
+        <option value="1">Estudis</option>
+        <option value="2">FCT</option>
+        <option value="3">Dual</option>
+        <option value="4">Estudis-FCT</option>
+        <option value="5">Treballo-estudis</option>
+      </select></p>
+      <br>
+      <input type="file" name="archivo">
+
+</fieldset>
+<fieldset class="caj6">
+    <legend>CURSOS EXTRES</legend>
+    <p>
+        <input type="checkbox" name="rep" value="1">Cloud computing
+        <input type="checkbox" name="rep" value="2">Big Data
+        <input type="checkbox" name="rep" value="3">Unity5
+</fieldset>
+<fieldset class="caj7">
+    <legend>Data Enquesta</legend>
+    <p>Fecha: <input type="date" name="fecha"> Hora: <input type="time" name="hora"></p>
+
+</fieldset>
+<fieldset class="caj8">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Esborrar">
+</fieldset>
+
+</form>
+</div>
+</body>
+</html>

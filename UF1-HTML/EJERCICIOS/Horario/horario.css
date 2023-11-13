@@ -1,0 +1,21 @@
+table{
+    background-color: rgba(197, 170, 80, 0.432);
+}
+a{
+    color: rgb(0, 0, 0);
+    text-shadow: -2px 2px 4px rgba(226, 243, 69, 0.863);
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(230, 21, 213);
+    transition: 0.2s;
+    
+}
+body{
+    background-image:url(https://i.blogs.es/e32e91/trucos-enfocar-fotografia-paisaje-01/1366_2000.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h7{
+    color: azure;
+}

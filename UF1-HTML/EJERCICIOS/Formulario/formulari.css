@@ -1,0 +1,44 @@
+legend{
+    text-decoration: underline;
+    font-weight: bold;
+}
+div{
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+.caj1{
+    background-color: rgba(12, 206, 240, 0.966);
+    font-family: arial;
+}
+.caj2{
+    background-color: pink;
+    font-family: arial;
+}
+.caj3{
+    background-color: yellow;
+    font-family: arial;
+}
+.caj4{
+    background-color: green;
+    font-family: arial;
+}
+.caj5{
+    background-color:grey;
+    font-family: arial;
+}
+.caj6{
+    background-color: orange;
+    font-family: arial;
+}
+.caj7{
+    background-color: rgb(161, 68, 68);
+    font-family: arial;
+}
+.caj8{
+    background-color: rgb(58, 56, 56);
+    font-family: arial;
+}
+h1{
+    text-align: center;
+    color: red;
+}

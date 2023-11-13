@@ -1,0 +1,26 @@
+h1{
+    color: aqua;
+}
+li{
+    list-style-type: lower-latin;
+}
+.specialASIX{
+    color:orange;
+    
+}
+Button{
+    background-color: rgba(207, 176, 39, 0.753);
+}
+a{
+    color:rgb(221, 34, 34);
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(230, 21, 213);
+    transition: 0.2s;
+}
+body{
+    background-image:url(https://i.blogs.es/e32e91/trucos-enfocar-fotografia-paisaje-01/1366_2000.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
